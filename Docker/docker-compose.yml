@@ -2,7 +2,9 @@ version: '3'
 
 services:
   linux:
-    image: ubuntu:latest
+    # image: ubuntu:latest
+    # image: centos:latest
+    image: centos:centos7
     command: /bin/bash
     tty: true
   db:

@@ -1,4 +1,5 @@
-FROM ubuntu:latest
+# FROM ubuntu:latest
+FROM centos:latest
 
 RUN apt-get update && \
     apt-get upgrade -y && \
