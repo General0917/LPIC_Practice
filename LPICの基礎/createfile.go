@@ -8,7 +8,7 @@ import (
 func main() {
 	for i := 1; i <= 7; i++ {
 		fileName := fmt.Sprintf("%d日目.md", i)
-		fileContent := fmt.Sprintf("# Day %d\n\nWrite your content here for day %d.", i, i)
+		fileContent := fmt.Sprintf("# %d日目\n\nWrite your content here for day %d.", i, i)
 
 		// ファイルが既に存在するか確認
 		if _, err := os.Stat(fileName); os.IsNotExist(err) {
