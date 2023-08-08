@@ -1,0 +1,77 @@
+    1  pwd
+    2  su - general0917
+    3  su -
+    4  id
+    5  pwd
+    6  su
+    7  pwd
+    8  passwd
+    9  sudo -i
+   10  su
+   11  pwd
+   12  ifconfig
+   13  ruby -v
+   14  exit
+   15  ls
+   16  date > today.txt
+   17  cd LPICの基礎/
+   18  cd practice_linux/
+   19  date > today.txt
+   20  cat today.txt 
+   21  date > today.txt
+   22  cat today.txt 
+   23  date >> today.txt 
+   24  cat today.txt 
+   25  su
+   26  pwd
+   27  id
+   28  cd LPICの基礎/
+   29  cd practice_linux/
+   30  ls -l today.txt nofile 2 > stderr.txt
+   31  ls -l today.txt nofile 2> stderr.txt
+   32  history | less
+   33  cd LPICの基礎/
+   34  cd practice_linux/
+   35  pwd
+   36  ls
+   37  ls *.txt
+   38  ls ?.txt
+   39  vi 1.txt
+   40  vi 2.txt
+   41  ls ?.txt
+   42  ls *.txt
+   43  vi ab.txt
+   44  vi a1.txt
+   45  vi a2.txt
+   46  vi b1.txt
+   47  vi b2.txt
+   48  vi 3.txt
+   49  vi 4.txt
+   50  vi 5.txt
+   51  vi c3.txt
+   52  vi a3
+   53  vi c1.txt
+   54  ls
+   55  ls *.txt
+   56  ls
+   57  ls ?.txt
+   58  ls [ab]*.txt
+   59  ls [3-5].txt
+   60  vi 1
+   61  ls *[13]*
+   62  cd LPICの
+   63  cd LPICの基礎/
+   64  cd practice_linux/
+   65  wsl -l -v
+   66  history
+   67  pwd
+   68  ps
+   69  history
+   70  ps
+   71  cd LPICの基礎/
+   72  cd practice_linux/
+   73  mkdir date
+   74  cd date/
+   75  cd ../
+   76  cd data/
+   77  history > history.txt
