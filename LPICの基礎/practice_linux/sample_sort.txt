@@ -1,0 +1,6 @@
+1:/bin
+8:/var/spool/mail
+12:/usr/games
+998:/var/lib/chrony
+11:/root
+74:/var/empty/sshd
